@@ -75,6 +75,36 @@ let students = [
     voto: 84},
 ];
 
-let allcapsNames = [];
+const formattedStudents = [];
 
-let allcapsNames =students.map(function)
+for(let i = 0; i <students.length; i++) {
+
+    const studentId = students[i].id
+    const name = students[i].nome
+    const grade = students[i].voto
+
+    const = student {
+        studentId: id,
+        name: name.toUpperCase(),
+        grades: grades,
+    }
+
+    formattedStudents.push(student);
+
+}
+
+const topStudents = [];
+const bestStudents = [];
+
+for (let i = 0; i < formattedStudents.length; i++) {
+    if (student.grade > 70) {
+        topStudents.push(student)
+
+        if (student.studentId > 120) {
+            bestStudents.push(student)
+        }
+
+    }
+}
+
+console.log(formattedStudents, topStudents, bestStudents)
